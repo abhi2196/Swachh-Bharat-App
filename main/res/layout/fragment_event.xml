@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abhi.clean_india.com.example.abhi.clean_india.adapter.EventFragment">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:background="@drawable/in"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Campaign title"
+            android:textColorHint="@color/wallet_link_text_light"
+            android:textColor="@color/wallet_link_text_light"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:hint="Description"
+            android:textColorHint="@color/wallet_link_text_light"
+            android:textColor="@color/wallet_link_text_light"
+            android:id="@+id/editText2"
+            android:layout_below="@+id/editText5"
+            android:layout_alignLeft="@+id/editText5"
+            android:layout_alignStart="@+id/editText5"
+            android:layout_marginTop="70dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="REGISTER"
+            android:textColorHint="@color/wallet_primary_text_holo_light"
+            android:id="@+id/button"
+            android:padding="10dp"
+            android:layout_marginTop="35dp"
+            android:background="@color/wallet_holo_blue_light"
+            android:layout_below="@+id/editText2"
+            android:layout_alignRight="@+id/editText2"
+            android:layout_alignEnd="@+id/editText2"
+            android:layout_alignLeft="@+id/editText2"
+            android:layout_alignStart="@+id/editText2" />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:textColorHint="@color/wallet_link_text_light"
+            android:textColor="@color/wallet_link_text_light"
+            android:id="@+id/editText3"
+            android:layout_marginTop="10dp"
+            android:layout_alignLeft="@+id/editText2"
+            android:layout_alignStart="@+id/editText2"
+            android:hint="Location"
+            android:layout_below="@+id/editText5" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:textColorHint="@color/wallet_link_text_light"
+            android:textColor="@color/wallet_link_text_light"
+            android:layout_marginTop="10dp"
+            android:hint="Start Date"
+            android:id="@+id/editText4"
+            android:layout_below="@+id/editText"
+            android:layout_alignRight="@+id/editText"
+            android:layout_alignEnd="@+id/editText" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:textColorHint="@color/wallet_link_text_light"
+            android:textColor="@color/wallet_link_text_light"
+            android:layout_marginTop="10dp"
+            android:hint="End Date"
+            android:id="@+id/editText5"
+            android:layout_below="@+id/editText4"
+            android:layout_alignRight="@+id/editText"
+            android:layout_alignEnd="@+id/editText" />
+
+
+    </RelativeLayout>
+</ScrollView>
+</FrameLayout>

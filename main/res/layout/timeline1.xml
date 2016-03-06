@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#C8BFE7"
+    android:layout_marginTop="47dp"
+    android:layout_height="match_parent"
+    android:id="@+id/jyoti">
+
+
+
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLabel"
+        android:src="@drawable/icon"
+        android:id="@+id/imf"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Request Registered"
+        android:id="@+id/title"
+        android:layout_alignTop="@+id/imf"
+        android:layout_toRightOf="@+id/imf"
+        android:layout_toEndOf="@+id/imf" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/descp1"
+        android:layout_below="@+id/title"
+        android:layout_alignLeft="@+id/title"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ff0023"
+        android:id="@+id/time1"
+        android:layout_below="@+id/descp1"
+
+        android:layout_alignLeft="@+id/descp1"
+        />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageButton4"
+        android:src="@android:drawable/presence_online"
+        android:layout_below="@+id/imf"
+        android:layout_centerHorizontal="true" />
+    
+</RelativeLayout>
